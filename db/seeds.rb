@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-p1 = Project.create(site: "https://bass-music.herokuapp.com/", screen: "https://dl.dropboxusercontent.com/u/63260308/portfolio/images/bass-music-screen.jpeg", title: "Bass Music", desc: "A music app built on rails that uses associations between albums and tracks")
-p2 = Project.create(site: "https://bookmarks-webapp.herokuapp.com/", screen: "https://dl.dropboxusercontent.com/u/63260308/Portfolio/Images/bookmarks-screen.jpeg", title: "Bookmarks", desc: "A book review site built on rails that compiles and displays books, authors, and reviews")
-p3 = Project.create(site: "https://stories-webapp.herokuapp.com/", screen: "https://dl.dropboxusercontent.com/u/63260308/Portfolio/Images/stories-screen.jpeg", title: "Stories", desc: "A travel photos app built on rails that maps to views and stores signup info in a database")
+p1 = Project.create(site: "https://bassmusic-railsapp.herokuapp.com/", screen: "https://dl.dropboxusercontent.com/u/63260308/portfolio/images/bass-music-screen.jpeg", title: "Bass Music", desc: "A music app built on rails that uses associations between albums and tracks")
+p2 = Project.create(site: "https://bookmarks-railsapp.herokuapp.com/", screen: "https://dl.dropboxusercontent.com/u/63260308/Portfolio/Images/bookmarks-screen.jpeg", title: "Bookmarks", desc: "A book review site built on rails that compiles and displays books, authors, and reviews")
+p3 = Project.create(site: "https://stories-railsapp.herokuapp.com/", screen: "https://dl.dropboxusercontent.com/u/63260308/Portfolio/Images/stories-screen.jpeg", title: "Stories", desc: "A travel photos app built on rails that maps to views and stores signup info in a database")
 
